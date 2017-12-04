@@ -4,7 +4,7 @@
 
 ## Models
 - Post -> data:data rational:text
-- User -> Devise
+x User -> Devise
 - AdminUser -> STI
 
 #Features:
