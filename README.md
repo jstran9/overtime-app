@@ -4,8 +4,8 @@
 
 ## Models
 - Post -> data:data rational:text
-- User -> Devise (x)
-- AdminUser -> STI
+- <s>User -> Devise</s>
+- <s>AdminUser -> STI</s>
 
 #Features:
 - Approval Workflow
