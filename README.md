@@ -3,7 +3,7 @@
 ## Key requirement: company needs documentation that salaried employees did or did not get overtime each week
 
 ## Models
-- Post -> data:data rational:text
+- <s>Post -> data:data rational:text</s>
 - <s>User -> Devise</s>
 - <s>AdminUser -> STI</s>
 
