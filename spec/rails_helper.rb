@@ -21,4 +21,5 @@ RSpec.configure do |config|
   config.before(:each, :js => true) { DatabaseCleaner.strategy = :truncation }
   config.before(:each) { DatabaseCleaner.start }
   config.after(:each) { DatabaseCleaner.clean }
+  config.include FactoryGirl::Syntax::Methods
 end
