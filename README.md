@@ -16,6 +16,8 @@
 
 ## UI:
 - <s>Bootstrap -> formatting</s>
+- Icons from Font Awesome
+- <s>Update the styles for forms</s>
 
 ## Refactor TODOS:
 - <s>Add full_name method for users</s>
