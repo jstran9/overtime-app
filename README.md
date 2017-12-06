@@ -23,3 +23,4 @@
 ## Refactor TODOS:
 - <s>Add full_name method for users</s>
 - Refactor user association integration test in post_spec
+- Refactor posts/_form for admin user with status
