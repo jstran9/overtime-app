@@ -21,9 +21,13 @@
 - <s>Icons from glyphicons</s>
 - <s>Update the styles for forms</s>
 
-## Refactor TODOS:
+## TODOS:
 - <s>Add full_name method for users</s>
 - <s>Refactor user association integration test in post_spec</s>
 - <s>Refactor posts/_form for admin user with status</s>
 - <s>Fix post_spec.rb:85 to use factories</s>
 - <s>Fix post_spec.rb:52 to have correct user reference and not require update</s>
+- Integrate validation for phone attribute in User:
+    - no spaces or dashes
+    - exactly 10 characters
+    - all characters have to be a number
