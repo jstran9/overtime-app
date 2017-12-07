@@ -1,10 +1,18 @@
-User.create(email: 'user@test.com', password: 'asdfasdf', password_confirmation: 'asdfasdf',
-                   first_name: 'Jon', last_name: 'Snow')
+User.create(email: 'user@test.com',
+            password: 'asdfasdf',
+            password_confirmation: 'asdfasdf',
+            first_name: 'Jon',
+            last_name: 'Snow',
+            phone: '"4849862197')
 
 puts "User created"
 
-AdminUser.create(email: 'admin@test.com', password: 'asdfasdf', password_confirmation: 'asdfasdf',
-            first_name: 'Todd', last_name: 'Tran')
+AdminUser.create(email: 'admin@test.com',
+                 password: 'asdfasdf',
+                 password_confirmation: 'asdfasdf',
+                 first_name: 'Todd',
+                 last_name: 'Tran',
+                 phone: '4849862197')
 
 puts "Admin User created"
 
