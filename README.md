@@ -27,7 +27,7 @@
 - <s>Refactor posts/_form for admin user with status</s>
 - <s>Fix post_spec.rb:85 to use factories</s>
 - <s>Fix post_spec.rb:52 to have correct user reference and not require update</s>
-- Integrate validation for phone attribute in User:
+- <s>Integrate validation for phone attr in User:
     - no spaces or dashes
     - exactly 10 characters
-    - all characters have to be a number
+    - all characters have to be a number</s>
