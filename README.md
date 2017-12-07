@@ -8,7 +8,7 @@
 - <s>AdminUser -> STI</s>
 
 #Features:
-- Approval Workflow
+- <s>Approval Workflow</s>
 - SMS Sending -> link to approval or overtime input
 - <s>Administrate admin dashboard</s>
 - <s>Block non admin and guest users</s>
@@ -22,7 +22,7 @@
 
 ## Refactor TODOS:
 - <s>Add full_name method for users</s>
-- Refactor user association integration test in post_spec
+- <s>Refactor user association integration test in post_spec</s>
 - Refactor posts/_form for admin user with status
-- Fix post_spec.rb:85 to use factories
-- Fix post_spec.rb:52 to have correct user reference and not require update
+- <s>Fix post_spec.rb:85 to use factories</s>
+- <s>Fix post_spec.rb:52 to have correct user reference and not require update</s>
