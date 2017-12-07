@@ -23,3 +23,6 @@
 
 # do not upload secrets!
 /config/secrets.yml
+
+# do not show environment credentials.
+.env
