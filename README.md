@@ -9,12 +9,12 @@
 - AuditLog
 
 #Features:
-- Approval Workflow
+- <s>Approval Workflow</s>
 - SMS Sending -> link to approval or overtime input -> integrate with Heroku scheduler.
 - <s>Administrate admin dashboard</s>
 - <s>Block non admin and guest users</s>
 - Email summary to managers for approval
-- Needs to be documented if employee did not log overtime
+- <s>Needs to be documented if employee did not log overtime</s>
 
 ## UI:
 - <s>Bootstrap -> formatting</s>
