@@ -15,6 +15,7 @@
 - <s>Block non admin and guest users</s>
 - Email summary to managers for approval
 - <s>Needs to be documented if employee did not log overtime</s>
+- Create audit log for each text message
 
 ## UI:
 - <s>Bootstrap -> formatting</s>
