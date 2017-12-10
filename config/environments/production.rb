@@ -23,5 +23,5 @@ Rails.application.configure do
 
   config.assets.compile = true
 
-  config.action_mailer.default_url_options = { host: ENV['APP_DOMAIN'] }
+  config.action_mailer.default_url_options = { :host => 'tt-overtime.herokuapp.com' }
 end
