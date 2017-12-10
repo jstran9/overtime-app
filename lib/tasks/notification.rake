@@ -1,7 +1,15 @@
+include Rails.application.routes.url_helpers
+
 namespace :notification do
   desc "Sends SMS notification to employees asking them to log if they had overtime or not"
   task sms: :environment do
     if Time.now.sunday?
+      employees = Employee.all
+      notification_message = "Please log into the overtime management dashboard to request overtime or confirm your
+      hours for last week: #{root_path}"
+      employees.each do |employee|
+        SmsTool.send_sms(employee.phone, notification_message)
+      end
       # 1. Schedule to run every Sunday at 5pm
       # 2. Iterate over all employees
       # 3. Skip AdminUsers
