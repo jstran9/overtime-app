@@ -39,4 +39,3 @@ Rails.application.configure do
 
   Rails.application.routes.default_url_options[:host] = 'tt-overtime.herokuapp.com'
 end
-
