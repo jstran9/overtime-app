@@ -3,12 +3,13 @@ include Rails.application.routes.url_helpers
 namespace :notification do
   desc "Sends SMS notification to employees asking them to log if they had overtime or not"
   task sms: :environment do
-    if Time.now.sunday?
+    # if Time.now.saturday
       employees = Employee.all
       notification_message = "Please log into the overtime management dashboard to request overtime or confirm your
       hours for last week: #{root_path}"
       employees.each do |employee|
-        SmsTool.send_sms(employee.phone, notification_message)
+        # SmsTool.send_sms(employee.phone, notification_message)
+        SmsTool.send_sms(ENV['YOUR_PHONE_NUMBER'], notification_message)
       end
       # 1. Schedule to run every Sunday at 5pm
       # 2. Iterate over all employees
@@ -17,7 +18,7 @@ namespace :notification do
       # User.all.each do |user|
       #   SmsTool.send_sms(user.phone, "Number")
       # end
-    end
+    # end
   end
 
   desc "Sends mail notification to managers (admin users) each day to inform of pending overtime requests"
