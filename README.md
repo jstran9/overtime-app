@@ -13,9 +13,10 @@
 - <s>SMS Sending -> link to approval or overtime input -> integrate with Heroku scheduler.</s>
 - <s>Administrate admin dashboard</s>
 - <s>Block non admin and guest users</s>
-- Email summary to managers for approval
+- <s>Email summary to managers for approval</s>
 - <s>Needs to be documented if employee did not log overtime</s>
 - Create audit log for each text message
+- Need to update end_date when confirmed
 
 ## UI:
 - <s>Bootstrap -> formatting</s>
