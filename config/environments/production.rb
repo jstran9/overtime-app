@@ -23,8 +23,6 @@ Rails.application.configure do
 
   config.assets.compile = true
 
-  config.action_mailer.default_url_options = { :host => 'tt-overtime.herokuapp.com' }
-
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
 
@@ -37,4 +35,8 @@ Rails.application.configure do
       :authentication => :plain,
       :enable_starttls_auto => true
   }
+  config.action_mailer.default_url_options = { :host => 'tt-overtime.herokuapp.com' }
+
+  Rails.application.routes.default_url_options[:host] = 'tt-overtime.herokuapp.com'
 end
+
