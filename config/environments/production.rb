@@ -29,13 +29,13 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
       :user_name => ENV['SENDGRID_USERNAME'],
       :password => ENV['SENDGRID_PASSWORD'],
-      :domain => 'tt-overtime.herokuapp.com',
+      :domain => ENV['APP_DOMAIN'],
       :address => 'smtp.sendgrid.net',
       :port => 587,
       :authentication => :plain,
       :enable_starttls_auto => true
   }
-  config.action_mailer.default_url_options = { :host => 'tt-overtime.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => ENV['APP_DOMAIN'] }
 
-  Rails.application.routes.default_url_options[:host] = 'tt-overtime.herokuapp.com'
+  Rails.application.routes.default_url_options[:host] = ENV['APP_DOMAIN']
 end
