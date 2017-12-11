@@ -26,3 +26,6 @@
 
 # do not show environment credentials.
 .env
+
+# do not upload newrelic info!
+/config/newrelic.yml
