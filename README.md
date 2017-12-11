@@ -16,15 +16,14 @@
 - <s>Email summary to managers for approval</s>
 - <s>Needs to be documented if employee did not log overtime</s>
 - <s>Create audit log for each text message</s>
-- Need to update end_date when confirmed
-- Need to update audit_log status when an overtime item has been rejected
-- Update buttons on employee homepage so they show on mobile
-- Update buttons to include time span
-- Update button sort order on employee homepage
-- Remove unnecessary nav bar buttons for manager
-- Fix admin dashboard bug
-- Implement Honeybadger error reporting
-- Implement new relic for keeping site alive
+- <s>Need to update end_date when confirmed</s>
+- <s>Need to update audit_log status when an overtime item has been rejected</s>
+- <s>Update buttons on employee homepage so they show on mobile</s>
+- <s>Update buttons to include time span</s>
+- <s>Update button sort order on employee homepage</s>
+- <s>Remove unnecessary nav bar buttons for manager</s>
+- <s>Fix admin dashboard bug</s>
+- <s>Implement new relic for keeping site alive</s>
 
 ## UI:
 - <s>Bootstrap -> formatting</s>
