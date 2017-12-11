@@ -23,7 +23,6 @@
 - <s>Update button sort order on employee homepage</s>
 - <s>Remove unnecessary nav bar buttons for manager</s>
 - <s>Fix admin dashboard bug</s>
-- <s>Implement new relic for keeping site alive</s>
 
 ## UI:
 - <s>Bootstrap -> formatting</s>
